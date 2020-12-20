@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!-- Main css -->
+    <link rel="stylesheet" href='{% static "css/formstyle.css"%}'>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="Name">
+                <h1>Authentication system</h1>
+            </div>
+            <div class="buttons">
+                <button type="button"><a href="signin"> Log in</a></button>
+                <button type="button"><a href="signup">Log on</a> </button>
+            </div>
+        </header>
+        <content>
+            <h2>Q1.What is Authentication?</h2>
+            <span><b>-->the process or action of proving or showing something to be true, genuine, or valid.
+            </b></span><br>
+            <span><b>-->the process or action of verifying the identity of a user or process.</b></span>
+            <h2></h2>
+            <h2>Q2.Difference between Authentication and Authorization</h2>
+            <img src="{% static 'images/auth.png' %} " height="500px " width="500px ">
+        </content>
+    </div>
+</body>
+
+</html>
